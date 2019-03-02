@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BMI Caculating - Index</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<div class="wrap">
+		<div class="caculatePart">
+			<div class="caculatePartContent">
+				<img src="pics/BMICLogo.png" alt="logo">
+				<p>身高 cm</p>
+				<input class="input" id="heightInput" type="text" placeholder="請輸入身高" onkeypress='validate(event)'>
+				<p>體重 kg</p>
+				<input class="input" id="weightInput" type="text" placeholder="請輸入體重" onkeypress='validate(event)'>
+				
+				<button id="getResult">看結果</button>
+				<div class="clearFix"></div>
+			</div>			
+		</div>
+		<div class="recordPart">
+			<h2 class="recordTitle">BMI 紀錄</h2>
+			<ul class="outputBMI"></ul>
+		</div>
+		<div class="footer">
+			<img src="pics/BMICLogo.png" alt="">
+		</div>
+
+	</div>
+	
+
+
+	<script src="js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*End of reset*/
+.clearFix {
+  clear: both; }
+
+.wrap {
+  width: 940px;
+  margin: 0 auto; }
+  .wrap .caculatePart {
+    width: 100%;
+    background: #424242;
+    height: 300px;
+    border: 1px solid #424242; }
+    .wrap .caculatePart .caculatePartContent {
+      width: 640px;
+      margin: 90px auto; }
+      .wrap .caculatePart .caculatePartContent img {
+        display: block;
+        height: 120px;
+        width: 120px;
+        float: left;
+        margin-right: 100px; }
+      .wrap .caculatePart .caculatePartContent p {
+        font-family: AppleSystemUIFont;
+        font-size: 18px;
+        color: #FFD366;
+        display: inline-block; }
+      .wrap .caculatePart .caculatePartContent .input {
+        background: rgba(255, 255, 255, 0.18);
+        border: 2px solid #FFD366;
+        width: 250px;
+        border-radius: 10px;
+        font-size: 24px;
+        padding-left: 20px;
+        caret-color: rgba(255, 255, 255, 0.5);
+        display: block; }
+      .wrap .caculatePart .caculatePartContent #getResult {
+        border: none;
+        background: #FFD366;
+        font-family: PingFangTC-Regular;
+        font-size: 24px;
+        color: #424242;
+        height: 120px;
+        width: 120px;
+        border-radius: 100px;
+        display: block;
+        float: right;
+        margin-left: 50px;
+        position: relative;
+        top: -100px;
+        outline: none; }
+      .wrap .caculatePart .caculatePartContent #getResult:hover {
+        cursor: pointer; }
+      .wrap .caculatePart .caculatePartContent #getResult:active {
+        background: #DEA821; }
+  .wrap .recordTitle {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px; }
+  .wrap .recordPart {
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5; }
+    .wrap .recordPart .outputBMI {
+      font-size: 20px;
+      width: 625px;
+      margin: 20px auto;
+      list-style: none; }
+      .wrap .recordPart .outputBMI li {
+        background-color: #fff;
+        margin-top: 16px;
+        height: 60px;
+        padding-left: 12px;
+        line-height: 60px; }
+        .wrap .recordPart .outputBMI li .titleHead {
+          width: 100px;
+          display: inline-block; }
+        .wrap .recordPart .outputBMI li .titleName {
+          font-size: 12px;
+          margin-left: 40px; }
+        .wrap .recordPart .outputBMI li .titleValue {
+          width: 60px;
+          display: inline-block; }
+  .wrap .footer {
+    width: 100%;
+    height: 90px;
+    background-color: #424242;
+    text-align: center; }
+    .wrap .footer img {
+      margin-top: 18px;
+      width: 55px;
+      height: 55px; }
