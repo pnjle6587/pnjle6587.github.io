@@ -116,7 +116,7 @@ function throwBackData(){
 	if(getRecordData !== null){
 		var recordBMI_ary = JSON.parse(getRecordData);
 		for(var i = 0; i < recordBMI_ary.BMI.length; i++){
-			pushData(recordBMI_ary.height[i], recordBMI_ary.weight[i], recordBMI_ary.BMI[i]);
+			pushData(recordBMI_ary.height[i], recordBMI_ary.weight[i], recordBMI_ary.BMI[i], recordBMI_ary.time[i]);
 		}	
 	}
 }
