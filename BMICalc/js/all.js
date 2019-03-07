@@ -18,7 +18,7 @@ function getData(){
 	var weight = document.querySelector('#weightInput').value;
 	var today = new Date();
 	var currentTime = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-	console.log(currentTime);
+	console.log(typeof(currentTime));
 
 	//若 height 以及 weight 內有填數字時才會將資料寫入 object 中
 	//否則便跳出警告
